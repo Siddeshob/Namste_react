@@ -1,0 +1,57 @@
+CDN links
+
+***ECMAScript (ES6)***
+
+npm install -D parcel
+npm install             //(--Regenerate--)install all node_modules
+npx parcel index.html   //(bundler) used to execute the package it will bulid & host il locall host at http://localhost:1234
+npm install react
+npm i react-dom
+
+
+
+// there are 2type of dependences
+    1.dev dependences (while dev app is requrird)
+    2.normal dependences (it require in production time)
+
+parcel // wrape the folders
+
+package.json:- is configuration of npn and keep tracks on the version 
+node_modules:- it contines actual data of dependences
+
+//transitive dependences : - when one module depends upon another which again depends on others
+
+/-----------------------------Episode 03----------------------------------------------/
+json file:- we can directly start by using *npm start (or) npm build*
+
+"scripts": {
+    "start":"parcel index.html",
+    "build":"parcel build index.html",
+}
+
+//this jsx code transpaling(  (is a translater)) before traching js Engine using *parcel*
+const jsx=<h1>hello siddu</h1>
+
+/-----------------------------Episode 03 part - 02---(React Components)-------------------------------------------/
+
+1.class based Components
+2.functional components:- is a normal functional js code it will return jsx code.
+
+Component Composition :- It's just like how we combine different parts of components 
+                        ex:- <h1><Title/>hemmo is siddesha</h1>
+
+
+
+
+
+
+
+----Errors----
+1.Browser scripts cannot have imports or exports.// add module at  <script type="module" src="./script.js">
+
+
+
+
+
+
+
