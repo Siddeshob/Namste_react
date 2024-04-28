@@ -30,7 +30,7 @@ json file:- we can directly start by using *npm start (or) npm build*
     "build":"parcel build index.html",
 }
 
-//this jsx code transpaling(  (is a translater)) before traching js Engine using *parcel*
+//this jsx code transpaling( babel (is a translater)) before traching js Engine using *parcel*
 const jsx=<h1>hello siddu</h1>
 
 /-----------------------------Episode 03 part - 02---(React Components)-------------------------------------------/
