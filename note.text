@@ -3,6 +3,7 @@ CDN links
 ***ECMAScript (ES6)***
 
 npm install -D parcel
+npm init
 npm install             //(--Regenerate--)install all node_modules
 npx parcel index.html   //(bundler) used to execute the package it will bulid & host il locall host at http://localhost:1234
 npm install react
